@@ -1,0 +1,13 @@
+services:
+  vendor_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: vendor_api
+    volumes:
+      - ./app:/var/www/html
+    ports:
+      - "80:80"
+
+volumes:
+  wwwroot:
