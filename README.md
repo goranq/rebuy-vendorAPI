@@ -1,6 +1,6 @@
 # rebuy-vendorAPI
 
-Test assignment for Junior Web Developer position at Rebuy
+A simple API providing basic functionality for managing products. Made for learning purposes only, it is not intended for production use.
 
 ## Usage
 
